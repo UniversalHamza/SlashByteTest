@@ -1,0 +1,59 @@
+.card-hover-effect:hover {
+    color: #fff !important;
+    background-color: #1daafc;
+  }
+  
+  .team4 {
+    color: #8d97ad;
+    font-weight: 300;
+  }
+  
+  .team4 h1,
+  .team4 h2,
+  .team4 h3,
+  .team4 h4,
+  .team4 h5,
+  .team4 h6 {
+    color: #3e4555;
+  }
+  
+  .team4 .font-weight-medium {
+    font-weight: 500;
+  }
+  
+  .sizedbox {
+    height: 50px;
+  }
+  
+  /* replace image on mobile screen */
+  @media screen and (max-width: 767px) {
+    #img1 {
+      content: url("../images/NYRJ-MB.jpg");
+      width: 100%;
+      height: auto;
+    }
+    #img2 {
+      content: url("../images/Mobile-Banner.jpg");
+      width: 100%;
+      height: auto;
+    }
+    #img3 {
+      content: url("../images/NYRJ-MB.jpg");
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    #img1 {
+      content: url("../images/header4.jpg");
+    }
+    #img2 {
+      content: url("../images/Banner.jpg");
+    }
+    #img3 {
+      content: url("../images/header4.jpg");
+    }
+  }
+  
+  

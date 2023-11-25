@@ -1,0 +1,7 @@
+body {
+  margin: 0;
+}
+
+.app-header {
+  max-height: 400px;
+}
